@@ -1,0 +1,44 @@
+
+.groupOne{
+    display: flex;
+   align-items: center;
+   flex-direction: column;
+   background-color: white;
+    width:15% ;
+    height: 320px;
+    margin: 10px;
+    font-size: 12px;
+    
+    border: 1px solid red;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px #666666;
+}
+.img{
+    background-color: #b2b2b2;
+height: 200px;
+width: 90%;
+}
+.groupOne p{
+    line-height: 1px;
+}
+.main_box{
+    background-color: aqua;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 1px;
+   
+}
+.first_group{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+}
+.lose{
+    color: red;
+}
+.ween{
+    color: rgb(0, 6, 0);
+}
